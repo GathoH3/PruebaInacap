@@ -1,54 +1,407 @@
-body{
+html{
+    box-sizing: border-box;
     display: block;
+    height: 3021.6px;
+    min-height: 100%;
+    position: relative;
+    view-transition-name: root;
+    width: 1048px;
+    -webkit-locale:"es"
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
     font-family: "barlow",sans-serif;
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    background-color: var(--bs-body-bg);
+    font-size:16px;
+    font-weight: 400;
+    height: 3021.6px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
+    width: 1048px;
     -webkit-tap-highlight-color: transparent;
 }
 
 header{
-    background-color: white;
+    box-sizing: border-box;
+    color: #0C0C0C;
     display: block;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 70px;
+    line-height: 24px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color: transparent;}
+
+.simple-header{
+    align-items:center ;
+    background-color: white;
+    border-bottom-color: rgb(255, 255,255);
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    box-sizing: border-box;
+    color: rgb(33,37, 47);
+    display: flex;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 78px;
+    line-height: 24px;
+    min-height: 70px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color: transparent;
+   }
+.contenedor{
+    box-sizing: border-box;
+    color:rgb(33,37,41);
+    display: block;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color: transparent;
+
+   }
+   
+
+.row{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "barlow" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: 0px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color: transparent;
+}
+.col-12{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: "barlow"sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 24px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color: transparent;
+}
+.ImagenLogo{
+    aspect-ratio: auto 43 / 36;
+    box-sizing: border-box;
+    color: rgb(13, 110, 253);
+    cursor: pointer;
+    display: inline;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 24px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-align: start;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 43px;
+    -webkit-tap-highlight-color: transparent;
+}
+#Banner{
+    box-sizing: border-box;
+    color:rgb(33, 37, 41);
+    display:block;
+    font-family: "barlow",sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    height: 354px;
+    line-height:24px;
+    text-align:start;
+    text-size-adjust: 100%;
+    unicode-bidi:isolate;
+    width: 1048px;
+    -webkit-tap-highlight-color: transparent;
 
 }
-.webp .Banner-Principal{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    height: 300px;
+.Banner-Principal{
+   background-image:url(https://www.entel.cl/public/includes/components/vue/banners/main-banner/public/img/webp/bg-internet-md.webp?v=519);
+   background-position-x: 100%;
+   background-position-y: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+   color: rgb(33, 37, 41);
+   display: flex;
+   flex-direction: column;
+   font-family: "barlow"sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 250px;
+   justify-content:center;
+   line-height: 24px;
+   margin-block-end: 24px;
+   margin-block-start: 0px;
+   margin-top: 0;
+   text-align: start;
+   text-size-adjust: 100%;
+   unicode-bidi: isolate;
+   width: 1048px;
+   -webkit-tap-highlight-color: transparent;}
+
+.container{
+    box-sizing: border-box;
+    color: rgba(33,37 , 41, );
+    display: block;
+    font-family: "barlow"sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 148px;
+    line-height: 24px;
+    margin-left: 44px;
+    margin-right:44px;
+    max-width: 968px;;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 375.2px;
+    -webkit-tap-highlight-color:transparent;
+}
+.row1{
+    box-sizing: border-box;
+    color: rgb(33,37,41);
     display: flex;
-    flex-direction: column;
-    justify-content: ;
+    flex-wrap: wrap;
+    font-family: "Barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 148px;
+    line-height: 24px;
+    margin-left:-12px;
+    margin-right:-12px;
+    margin-top: 0px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 968px;
+    -webkit-tap-highlight-color: transparent;
+}
+.col1{
+    box-sizing: border-box;
+    color: rgb(33, 37,41);
+    display: block;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family:"Barlow",sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    height: 148px;
+    line-height: 24px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-left:12px;
+    padding-right:12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width:  960px;
+    -webkit-tap-highlight-color: transparent;
+}
+.Banner-Principal-Header{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: flex;
+    font-family: "barlow" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    padding-block-start: 0px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 936px;
+    -webkit-tap-highlight-color: transparent;
 
-
+}
+.Tag-Banner{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: block;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 28px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    padding-left: 4px;
+    padding-top: 4px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi:isolate;
+    width: 173.775px;
+    -webkit-tap-highlight-color: transparent;
+}
+.Banner-Principal-Body{
+    box-sizing: border-box;
+    color:rgb(33,37,41);
+    display: block;
+    font-family: "barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 112px;
+    line-height: 24px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi:isolate;
+    -webkit-tap-highlight-color: transparent;
+}
+.Banner-Principal-Titulo{
+    box-sizing: border-box;
+    color: rgb(12, 12,12);
+    display: block;
+    font-family: "barlow",sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    height: 168px;
+    letter-spacing: normal;
+    line-height: 40px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    max-width: 397.76;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    -webkit-tap-highlight-color: transparent;
+}
+.d-block{
+    box-sizing: border-box;
+    color: #0C0C0C;
+    display: block;
+    font-family: "Barlow"sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.Banner-Principal-Subtitulo{
+    box-sizing: border-box;
+    color: #0C0C0C;
+    display: block;
+    font-family: "Inter" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+    margin-block-end: 0px;
+    margin-block-start:8px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top:8px;
+    text-align: start;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width: 936px;
+    -webkit-tap-highlight-color: transparent; 
+}
+.strong1{
+    box-sizing: border-box;
+    color: #0C0C0C;
+    display: inline;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    height: auto;
+    letter-spacing:0.08px;
+    line-height: 24px;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 
 }
 *,::after,::before{
-
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-section{
+
+.Menu-Contrato{
+    background-color:#fff;
+    box-sizing: border-box;
+    color: rgb(33,37,41);
     display:block;
+    font-family: "Berlow",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 248.8px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-y: auto;
+    padding-bottom: 8.8px;
+    padding-left: 0px;
+    padding-right:0px;
+    padding-top: 0px;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 135.2px;
+    -webkit-tap-highlight-color: transparent;
+ 
+
 }
-
-.simple-header{
-
-     background-color: white;
-     border-bottom: 1px;
-     border-bottom-width: 1px;
-     border-bottom-style: solid;
-     border-bottom-color: rgb(204, 204, 204);
-}
-
-.ImagenLogo{
-
-    height: 36;
-}
-@media(min-width:768px)
-:root{}

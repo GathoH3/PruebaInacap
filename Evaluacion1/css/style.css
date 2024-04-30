@@ -14,10 +14,7 @@ html{
 }
 
 
-body{
-    height: 100vh;
-    margin:0;
-    padding: 0;
+.style{
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     color: rgb(33, 37, 41);
@@ -75,7 +72,7 @@ header{
         width: 1048px;
         -webkit-tap-highlight-color: transparent;
  }
- .contenedor{
+ .Contenedor{
     box-sizing: border-box;
     color:rgb(33,37,41);
     display: block;
@@ -159,12 +156,14 @@ header{
         margin:0;
         padding:0;
         box-sizing: border-box;
+        block-size: 388.8px;
         color:rgb(33, 37, 41);
-        display:flex;
+        display:block;
         font-family: "barlow",sans-serif;
         font-size: 16px;
         font-weight:400;
-        height: 354px;
+        overflow-x: hidden;
+        height:388.8px;
         line-height:24px;
         text-align:start;
         text-size-adjust: 100%;
@@ -172,28 +171,29 @@ header{
         -webkit-tap-highlight-color: transparent;
  }
  .Banner-Principal{
-    width: 100vh;
     background-image:url(https://www.entel.cl/public/includes/components/vue/banners/main-banner/public/img/webp/bg-internet-md.webp?v=519);
-    background-position-x: 100%;
-    background-position-y: 50%;
+    background-position-x:100%;
+    background-position-y:50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     box-sizing: border-box;
     color: rgb(33, 37, 41);
     display: flex;
     flex-direction: column;
     font-family: "barlow"sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    height: 250px;
+    font-weight:400;
+    overflow-x: hidden;
+    height:250px;
     justify-content:center;
     line-height: 24px;
-    margin-block-end: 24px;
+    margin-block-end:24px;
     margin-block-start: 0px;
     margin-top: 0;
     text-align: start;
     text-size-adjust: 100%;
     unicode-bidi: isolate;  
+    width: 787.2px;
     -webkit-tap-highlight-color: transparent;}
 
 .container{
@@ -203,17 +203,17 @@ header{
         font-family: "barlow"sans-serif;
         font-size: 16px;
         font-weight: 400;
-        height: 148px;
+        height: 180px;
         line-height: 24px;
-        margin-left: 44px;
-        margin-right:44px;
-        max-width: 968px;;
+        margin-left: 102px;
+        margin-right:102px;
+        max-width:720px;
         padding-left: 12px;
         padding-right: 12px;
         text-align: start;
         text-size-adjust: 100%;
         unicode-bidi: isolate;
-        width: 375.2px;
+        width:720px;
         -webkit-tap-highlight-color:transparent;
     }
 .row1{
@@ -232,7 +232,7 @@ header{
         text-align: start;
         text-size-adjust: 100%;
         unicode-bidi: isolate;
-        width: 968px;
+        width: 720px;
         -webkit-tap-highlight-color: transparent;
     }
 .col1{
@@ -275,7 +275,6 @@ header{
     -webkit-tap-highlight-color: transparent;
 }
 .Imagen1{
-
  box-sizing: border-box;
  color: rgb(33,37,41);
  font-family: "barlow",sans-serif;
@@ -398,7 +397,7 @@ vertical-align: middle;
 
 }
 
-.Menu-Contrato{
+#Menu-Contrato{
     background-color:#fff;
     box-sizing: border-box;
     color: rgb(33,37,41);
@@ -451,7 +450,7 @@ position: relative;
 text-align: start;
 text-size-adjust: 100%;
 unicode-bidi:isolate;
-width:624px;
+width:78.2px;
 -webkit-tap-highlight-color: transparent;
 }
 

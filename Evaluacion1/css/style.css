@@ -1,5 +1,5 @@
-html{
-    height: 100%;
+.HTML1{
+    height:2810.64px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -7,9 +7,10 @@ html{
     display: block;
     height: 3021.6px;
     min-height: 100%;
-    scroll-behavior: smooth;
     position: relative;
-    width: 1048px;
+    scroll-behavior: smooth;
+    view-transition-name: root;
+    width: 884.8px;
     -webkit-locale:"es"
 }
 
@@ -28,13 +29,15 @@ html{
     margin-right: 0px;
     margin-top: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
     text-align: start;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
 .ContenidoHTML{
     height: 100%;
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
     box-sizing: border-box;
     padding: 20px;
 }
@@ -153,21 +156,18 @@ header{
 
  #Banner{
         width: 100vw;
-        margin:0;
-        padding:0;
         box-sizing: border-box;
-        block-size: 388.8px;
         color:rgb(33, 37, 41);
         display:block;
         font-family: "barlow",sans-serif;
         font-size: 16px;
         font-weight:400;
-        overflow-x: hidden;
-        height:388.8px;
+        height:362.8px;
         line-height:24px;
         text-align:start;
         text-size-adjust: 100%;
         unicode-bidi:isolate;
+        width: 882.8px;
         -webkit-tap-highlight-color: transparent;
  }
  .Banner-Principal{
@@ -183,17 +183,17 @@ header{
     font-family: "barlow"sans-serif;
     font-size: 16px;
     font-weight:400;
-    overflow-x: hidden;
     height:250px;
     justify-content:center;
     line-height: 24px;
     margin-block-end:24px;
     margin-block-start: 0px;
+    margin-bottom: 24px;
     margin-top: 0;
     text-align: start;
     text-size-adjust: 100%;
     unicode-bidi: isolate;  
-    width: 787.2px;
+    width: 882.8px;
     -webkit-tap-highlight-color: transparent;}
 
 .container{
@@ -807,7 +807,7 @@ width :527.2px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   
 }
-.Row-jutificacion{
+.Row-jutificacion-contenido{
 box-sizing: border-box;
 color :rgb(33, 37, 41);
 display :flex;
